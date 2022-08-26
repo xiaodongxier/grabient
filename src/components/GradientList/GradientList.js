@@ -20,9 +20,9 @@ const RoraAd = styled.img`
 
 const GradientList = ({ gradients }) => (
   <div>
-    <a href="https://rora.co/">
+    {/* <a href="https://rora.co/">
       <RoraAd src={roraAd} alt="rora ad" />
-    </a>
+    </a> */}
     <Container>
       {gradients.map((item, index) => (
         <GradientCard

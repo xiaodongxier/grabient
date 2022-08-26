@@ -75,7 +75,7 @@ const ActionsGroup = ({ prefixes, fallback, togglePrefixes, toggleFallback }) =>
       </ActionGroupItem>
     </ActionGroupItemContainer>
 
-    <ActionGroupItemContainer orderSM={-1}>
+    {/* <ActionGroupItemContainer orderSM={-1}>
       <ActionGroupItem
         href="https://www.unfold.co"
         style={{
@@ -98,7 +98,7 @@ const ActionsGroup = ({ prefixes, fallback, togglePrefixes, toggleFallback }) =>
         </CreditText>
         <UnfoldLogo />
       </ActionGroupItem>
-    </ActionGroupItemContainer>
+    </ActionGroupItemContainer> */}
   </Container>;
 
 export default connect(

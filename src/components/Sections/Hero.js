@@ -27,7 +27,7 @@ const Hero = () => (
     <LogoContainer>
       <Logo />
     </LogoContainer>
-    <div>
+    {/* <div>
       <iframe
         title="github"
         src="https://ghbtns.com/github-btn.html?user=johnkorzhuk&repo=grabient&type=star&count=true"
@@ -59,7 +59,7 @@ const Hero = () => (
           marginLeft: 7,
         }}
       />
-    </div>
+    </div> */}
   </GradientDisplayContainer>
 )
 

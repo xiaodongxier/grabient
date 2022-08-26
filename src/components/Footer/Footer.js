@@ -49,7 +49,8 @@ const John = () => (
       order: -1
     }}
     style={{
-      cursor: "pointer"
+      cursor: "pointer",
+      display: "none"
     }}
   >
     <PhotoText>@johnkorzhuk</PhotoText>
@@ -65,7 +66,8 @@ const Eddie = () => (
       order: -1
     }}
     style={{
-      cursor: "pointer"
+      cursor: "pointer",
+      display: "none"
     }}
   >
     <PhotoText>@lobanovskiy</PhotoText>
@@ -81,14 +83,14 @@ const Footer = () => (
         <Eddie />
       </ActionGroupItemContainer>
 
-      <ActionGroupItemContainer>
+      {/* <ActionGroupItemContainer>
         <ActionGroupItem href="https://www.unfold.co">
           <TextXS>©{new Date().getFullYear()} Grabient by</TextXS>
           <UnfoldLogo />
         </ActionGroupItem>
-      </ActionGroupItemContainer>
+      </ActionGroupItemContainer> */}
     </Container>
-    <AdContainer>
+    {/* <AdContainer>
       <script
         async
         type="text/javascript"
@@ -96,7 +98,7 @@ const Footer = () => (
         id="_carbonads_js"
       />
       <CarbonAd id="carbonads" />
-    </AdContainer>
+    </AdContainer> */}
   </PrimaryContainer>
 );
 
